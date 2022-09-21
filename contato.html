@@ -7,17 +7,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <script>
-        function funcao1()
-        {
-        alert("Mensagem enviada com sucesso!");
+        function funcao1() {
+            alert("Mensagem enviada com sucesso!");
         }
-        </script>
+    </script>
+
+    <style>
+        body {
+            background-color: #14213d
+        }
+
+        h1 {
+            
+            text-align: center;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #eae2b7;
+
+
+
+        }
+
+        form {
+
+            margin: 0 auto;
+            width: 500px;
+            padding: 1em;
+            border: 0.3px solid #ccc;
+            border-radius: 3em;
+            text-align: center;
+            background-color: #003049;
+            font-size: medium;
+            font-family: 'Courier New', Courier, monospace;
+            color: #eae2b7;
+
+        }
+
+        ul {
+
+            list-style: none;
+            padding:0;
+            margin: 0;
+            
+        }
+
+        form li+li {
+
+            margin-top: 0.12em;
+
+
+        }
+
+        label {
+
+
+            display: inline-block;
+            width: 110px;
+            text-align: right;
+
+        }
+
+        input, textarea {
+
+
+            font: 1em;
+            box-sizing: border-box;
+            border-color: #14213d;
+
+    
+        }
+
+        input:focus, textarea:focus {
+            border-color: black;
+
+        }
+        
+        footer,
+        a {
+
+            text-align: center;
+            color: bisque;
+
+
+        }
+
+
+        textarea {
+            
+            vertical-align: top;
+            height: 6em;
+            resize: vertical;
+           
+            
+            
+        }
+
+    </style>
+
+
+
 </head>
 
 <body>
 
     <header>
-        <h1> Entre em contato </h1>
+        <h1> Nos envie uma mensagem </h1>
     </header>
 
     <section>
@@ -26,21 +120,27 @@
 
             <form action="">
 
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome"> </input>
-                <br><br>
+                <ul>
 
-                <label for="e-mail">E-mail</label>
-                <input type="text" id="e-mail" name="sobrenome"> </input>
-                <br><br>
+                    <li>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome"> </input>
+                    </li>
 
-                <label for="texto">Mensagem</label>
-                <input type="text" width="500px" id="texto" name="texto"></input>
+                    <li><label for="e-mail">E-mail</label>
+                        <input type="email" id="e-mail" name="sobrenome"> </input>
+                    </li>
 
-                <br><br><br><br>
+                    <li><label for="text">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" cols="4" rows="40" wrap="hard"></textarea>  </textarea>
+                    </li>
+                    
 
-                <input type="submit" onclick=funcao1() value="Enviar mensagem"></input>
+                    <input type="submit" onclick=funcao1() value="Enviar mensagem"></input>
 
+
+
+                </ul>
 
             </form>
 
@@ -50,7 +150,7 @@
 
     <br>
 
-    <footer>    <a href="https://erick-jhone.github.io/atividadeProgWeb/index.html"> Retorne para página inicial </a></p>
+    <footer> <a href="https://erick-jhone.github.io/atividadeProgWeb/index.html"> Retorne para página inicial </a></p>
     </footer>
 
 </body>
