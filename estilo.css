@@ -4,6 +4,7 @@
         }
 
         h1 {    
+            margin: 0 auto;
             display: inline-block;
             width: 1260px;
             text-align: center;
