@@ -1,0 +1,121 @@
+body {
+
+    background-color: rgb(21, 21, 27);
+    color: aliceblue;
+    
+
+}
+
+
+ul {
+    align-items: center;
+    list-style-type: none;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0;
+    overflow:hidden;
+    background-color: rgb(24, 24, 43);
+    top: 0;
+    width: 100%;
+}
+
+li{
+
+    float: left;
+    margin:0px auto;
+    text-align: center;
+
+
+}
+
+li a {
+    margin:0px auto;
+    text-align: center;
+    color: rgb(0, 238, 91);
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+
+
+
+}
+
+li a:hover{
+
+    color: black;
+    background-color: bisque;
+
+
+}
+h1{
+    transition: all 4s;
+    margin:0px auto;
+    text-align: center;
+    margin-block-end: 1cm;
+
+
+}
+h1, h2{
+    
+    transition: all 4s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(32, 179, 88);
+    margin-top: 2cm;
+    padding: 0.1cm;
+}
+
+h1, h2:hover{
+
+    filter: grayscale(100%);
+    transition: all 0.4s;
+
+
+}
+
+figcaption{
+
+    font-size: small;
+    display: block;
+    justify-content: center;
+    margin: 0px auto;
+    margin-left: 2cm;
+    opacity: 65%;
+    text-align: center;
+}
+
+img {
+    transition: all 4s;
+    display: block;
+    justify-content: center;
+    margin: 0px auto;
+    opacity: 45%;
+    text-align: center;
+    border-color:firebrick;
+    border-radius: 0.31em;
+    box-shadow: 32em;
+    text-shadow: 132em;
+    
+
+
+
+}
+
+img:hover {
+    filter: grayscale(100%);
+    transition: all 1s;
+  
+}
+
+
+
+blockquote {
+
+    font-style: italic;
+    color:  rgb(0, 238, 91);
+    justify-content: center;
+    flex: content;
+    text-align: center;
+    margin-block-end: 2cm;
+
+}
+
